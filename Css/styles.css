@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+.nav1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav1 a{
+    padding: 0 20px;
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+
+}
+
+.nav2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav2 a{
+    padding: 0 20px;
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+}
+
+.carrousel{
+    background-color: grey;
+    border: 1px solid black;
+    height: 500px;
+    margin-bottom: 40px;
+}
+
+.formCesde{
+    background-color: aqua;
+    border: 1px solid black;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.leyenda-img{
+    background-color: blueviolet;
+    border: 1px solid black;
+    height: 350px;
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 0 50px;
+}
+
+div .images{
+    display: flex;
+    justify-content: center
+}
+
+div .img{
+    background-color: cadetblue;
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+article .column{
+    margin-top: 30px;
+    background-color: grey;
+    border: 1px solid black;
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+.container2{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    height: 650px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 .position1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+div .img2{
+    background-color: cadetblue;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 100%;
+    margin: 30px 30px;
+}
+
+.container3{
+    background-color: grey;
+    border: 1px solid black;
+    height: 500px;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.img3{
+    background-color: cadetblue;
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    margin: 20px 20px 0;
+}
+
+.container4{
+    background-color: chocolate;
+    border: 1px solid black;
+    height: 500px;
+    margin: 30px;
+    display: flex;
+}
